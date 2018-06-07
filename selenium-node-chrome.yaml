@@ -19,7 +19,7 @@ objects:
       contextDir: selenium-node-chrome
       type: Git
       git:
-        uri: https://rndwww.nce.amadeus.net/git/scm/test_headless/selenium.git
+        uri: https://ahassine:Midovich229@rndwww.nce.amadeus.net/git/scm/test_headless/selenium.git
         ref: master
     strategy:
       type: Docker
