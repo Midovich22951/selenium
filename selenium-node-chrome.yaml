@@ -33,7 +33,7 @@ objects:
   metadata:
     name: selenium-node-chrome
   spec:
-    dockerImageRepository: ''
+    dockerImageRepository: 'artprod.company.com/selenium:latest' 
     tags:
     - name: latest
 - apiVersion: v1
