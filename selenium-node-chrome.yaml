@@ -19,7 +19,7 @@ objects:
       contextDir: selenium-node-chrome
       type: Git
       git:
-        uri: https://github.com/jr00n/selenium-os
+        uri: https://rndwww.nce.amadeus.net/git/scm/test_headless/selenium.git
         ref: master
     strategy:
       type: Docker
@@ -33,7 +33,7 @@ objects:
   metadata:
     name: selenium-node-chrome
   spec:
-    dockerImageRepository: ''
+    dockerImageRepository: http://repository.rnd.amadeus.net:5000
     tags:
     - name: latest
 - apiVersion: v1
