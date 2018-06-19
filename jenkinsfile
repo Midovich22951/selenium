@@ -1,0 +1,15 @@
+pipeline
+    agent any
+
+    stages  {
+        stage ('create project') {
+            steps {
+            sh 'oc new-project seleniumgrid'
+
+
+
+            }
+
+        }
+
+    }
