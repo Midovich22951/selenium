@@ -67,7 +67,7 @@ objects:
           - name: JAVA_OPTS
             value: ${JAVA_OPTS}
           - name: CHROME_REPL_NBR
-            value: ${CHROME_REPL_NBR}  
+            value: 3  
           - name: SE_OPTS
             value: ${SE_OPTS}
           - name: HUB_PORT_4444_TCP_ADDR
