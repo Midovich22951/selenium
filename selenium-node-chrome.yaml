@@ -53,7 +53,7 @@ objects:
           kind: ImageStreamTag
           name: selenium-node-chrome:latest
     - type: ConfigChange
-    replicas: 1
+    replicas: ${CHROME_REPL_NBR}
     selector:
       browser: chrome
     template:
@@ -102,6 +102,9 @@ parameters:
   - name: JAVA_OPTS
     description: Options for the Java command
     value: "-Xmx512m -Dselenium.LOGGER.level=WARNING"
+  - name: CHROME_REPL_NBR
+    description: number of chrome instances
+    value: ""
   - name: SE_OPTS
     description: Options for the Node
     value: ""
