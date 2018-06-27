@@ -53,7 +53,7 @@ objects:
           kind: ImageStreamTag
           name: selenium-node-chrome:latest
     - type: ConfigChange
-    replicas: $JAVA_OPTS
+    replicas: ${JAVA_OPTS}
     selector:
       browser: chrome
     template:
