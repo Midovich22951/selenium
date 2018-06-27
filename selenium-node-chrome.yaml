@@ -106,7 +106,7 @@ parameters:
     value: "-Xmx512m -Dselenium.LOGGER.level=WARNING"
   - name: CHROME_REPL_NBR
     description: number of chrome instances
-    value: 
+    value: 3
   - name: SE_OPTS
     description: Options for the Node
     value: ""
